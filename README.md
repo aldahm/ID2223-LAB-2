@@ -3,7 +3,7 @@
 The code for finetuning all of the different models is mostly based on the provided notebook in the lab description. We did some modifications to it in order to fit our task in the lab.
 The UI code can be found in app.py on our hugginspace: https://huggingface.co/spaces/The-regressors/Iris/tree/main
 
-We set out to use our fine-tuned LLM to assist the user in rewriting emails on a specific mood, specifically angry/happy. We also created a UI for this task which can be found here: https://huggingface.co/spaces/The-regressors/Iris
+We set out to use our fine-tuned LLM to assist the user in rewriting emails in a specific mood, specifically angry/happy. We also created a UI for this task which can be found here: https://huggingface.co/spaces/The-regressors/Iris
 
 In this lab we created 5 different fine-tuned models:
 1. Llama 3.2-1B-instruct: The training parameters were the orignial ones in the provided notebook, nothing noteworthy was changed
@@ -30,10 +30,10 @@ It was difficult finding a suitable datasource that was already made that would 
 
 
 # Trying different LLMs
-To find the best model for our application we tried a couple of different LLMs other than llama-3.1-1B-intrusct. Firstly we tried the bigger llama 3.1-8B-instruct. This model is significantly bigger, with a lot more parameters, as such the inference time and fine-tuning time is greater. We also tried the Phi-3.5-mini-instruct model, which is bigger than the original llama-3.1 we used. The results can be found
+To find the best model for our application we tried a couple of different LLMs other than llama-3.1-1B-intrusct. Firstly, we tried the bigger llama 3.1-8B-instruct. This model is significantly bigger, with a lot more parameters, as such the inference time and fine-tuning time is greater. We also tried the Phi-3.5-mini-instruct model, which is bigger than the original llama-3.1 we used. The results can be found
 
 # Performance of the difference models
-In order to evaluate the performance of the different models, we recruited help from 3 different people. These 3 people acted as evaluators. The evaluation process went as follows:
+We evaluated the performance of the models in a structured way. The evaluation process went as follows:
 1. 3 differently written emails were used.
 2. For each model, every email was rewritten using our tool in a happy and angry tone.
 3. Each rewritten email was then evaluated by each evaluator on a 0-3 point scale following some general guidelines:
