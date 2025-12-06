@@ -34,12 +34,12 @@ To find the best model for our application we tried a couple of different LLMs o
 
 # Performance of the difference models
 In order to evaluate the performance of the different models, we recruited help from 3 different people. These 3 people acted as evaluators. The evaluation process went as follows:
-1. Each evaluator was given the same 3 emails.
-2. For each model, every evaluator used our rewriting tool to rewrite each email to both angry and happy.
-3. Each rewritten email was then evaluated on a 0-3 point scale following some general guidelines:
+1. 3 differently written emails were used.
+2. For each model, every email was rewritten using our tool in a happy and angry tone.
+3. Each rewritten email was then evaluated by each evaluator on a 0-3 point scale following some general guidelines:
 - Orginal intent
 - Reasonable toneality
 - Professionalism
 
-The results can be found in a google sheet here:
-To summerize, the best performing model was... and the worst...
+The results can be found in a google sheet here: https://docs.google.com/spreadsheets/d/1CdaCdLRXtAakocmunUHFPqWtErtX_R26J30ReWwAXCA/edit?usp=sharing
+
