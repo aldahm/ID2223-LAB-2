@@ -32,7 +32,7 @@ It was difficult finding a suitable datasource that was already made that would 
 # Trying different LLMs
 To find the best model for our application we tried a couple of different LLMs other than llama-3.1-1B-intrusct. Firstly, we tried the bigger llama 3.1-8B-instruct. This model is significantly bigger, with a lot more parameters, as such the inference time and fine-tuning time is greater. We also tried the Phi-3.5-mini-instruct model, which is bigger than the original llama-3.1 we used. The results can be found
 
-# Performance of the difference models
+# Performance of the different models
 We evaluated the performance of the models in a structured way. The evaluation process went as follows:
 1. 3 differently written emails were used.
 2. For each model, every email was rewritten using our tool in a happy and angry tone.
